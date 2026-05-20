@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
+body {
+  margin: 0;
+  font-family:sans-serif;
+  background: #f0f4f8;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: yellow;
+  text-shadow: #333 3px 5px 5px;
+}
+
+.search-box {
+  margin-top: 10px;
+  padding: 10px;
+  width: 80%;
+  max-height: 30px;
+  max-width: 300px;
+  border-radius: 17px;
+  background-color: whitesmoke;
+}
+.search-button {
+  margin-top: 10px;
+  padding: 7px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: whitesmoke;
+  font-style: normal;
+  border: none;
+}
+body {
+background-image: url('bg1.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.location .city  {
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#f0f4f8;
+  text-align: center;
+  text-shadow: #333 3px 5px 5px;
+}
+.location .date {
+  font-size: 1.5rem;
+  color:#f0f4f8;
+  text-align: center;
+  padding-top: 15px;
+  text-shadow: #333 3px 5px 5px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.current .temperature {
+  font-size: 4rem;
+  color:yellow;
+  text-align: center;
+  text-shadow: #333 8px 8px 8px;
+  padding-top: 50px;
+
+}
+
+.current .humidity, .current .wind-speed, .current .percipitation{
+  font-size: 1.5rem;
+  color:rgb(255, 255, 255)
+  ;
+  text-align: center;
+  padding-top: 15px;
+  text-shadow: #000000 5px 5px 5px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
